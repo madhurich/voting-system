@@ -1,0 +1,40 @@
+body {
+    
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.languages {
+    width: 40%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.languages .language-container {
+    display: flex;
+    align-items: center;
+}
+
+.language{
+    flex: 1;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    flex: 1;
+}
+
+.language-container {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+
